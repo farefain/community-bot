@@ -1,0 +1,403 @@
+topic_id,tag,summary,class,analysis_window,quarter_for_analysis
+0,Others,"1. The customer is having an issue with their Cisco IP Phone not being able to register with the Cisco Call Manager.
+2. The phone is showing the error message ""SIP Registration Failed"".
+3. The customer has tried to reset the phone and the Cisco Call Manager, but the issue persists.
+4. The customer has also tried to update the phone's firmware, but the issue still persists.
+5. The Cisco Engineer will need to troubleshoot the issue further to determine the root cause.
+6. The Engineer may need to gather more information from the customer, such as the phone's model number and",Design/Integration,annual,20233
+1,Others,"- The Cisco IOS XR Software Release 6.3.2 contains a bug that causes the device to crash when it receives a large number of ICMPv6 echo requests.
+- The bug is caused by a race condition in the TCP/IP stack.
+- The crash can occur when the device is under heavy load and is receiving a large number of ICMPv6 echo requests.
+- The crash can also occur when the device is configured with a large number of ICMPv6 echo request filters.
+- The bug can be fixed by upgrading to Cisco IOS XR Software Release 6.4.0",Design/Integration,annual,20233
+0,Directory services,"* The customer is experiencing intermittent connectivity issues with their Cisco 3850 switches.
+* The issues are occurring on both wired and wireless networks.
+* The customer has tried resetting the switches and updating the firmware, but the issues persist.
+* The customer is concerned about the impact of the connectivity issues on their business.
+* A Cisco engineer has been dispatched to the customer's site to investigate the issue.
+* The engineer will be troubleshooting the issue and working with the customer to resolve it.
+* The engineer will provide a status update to the customer once the troubleshooting is complete.
+* The customer is confident",Design/Integration,annual,20233
+1,Directory services,"- There is a problem with the Cisco IOS XE software.
+- The software is not compatible with the new Nexus 9000 switch.
+- The software is causing the switch to crash.
+- The Cisco TAC team is aware of the issue and is working on a fix.
+- The fix is expected to be released in the next software update.
+- In the meantime, you can use a workaround to avoid the issue.
+- The workaround is to downgrade the switch to a previous version of the software.
+- You can find instructions on how to downgrade the software in the Cisco documentation.
+- The",Design/Integration,annual,20233
+2,Directory services,"- The customer is having an issue with their Cisco ASR 9000 router.
+- The router is not able to route traffic properly.
+- The customer has tried to reboot the router, but the issue persists.
+- The customer has also tried to update the router's firmware, but the issue still persists.
+- The Cisco engineer has determined that the issue is caused by a bug in the router's software.
+- The engineer has contacted Cisco and is working with them to resolve the issue.
+- The customer is expected to receive a fix for the issue in the next software release.
+-",Design/Integration,annual,20233
+0,Cloud/OS,"The customer wants to deploy ISE on Azure and sync it with their on-prem ISE server.
+-- The customer is trying to implement two-factor authentication for VPN users using ISE and Azure Active Directory, but they are not sure how to do it.
+-- The issue is that the user needs a switch configuration for Dell (N Series) NAD's to integrate with ISE.",Design/Integration,annual,20233
+0,Integration,"* **The Cisco Catalyst 3850 switch is experiencing random reboots.**
+* **The reboots are happening every few days.**
+* **The switch is running software version 12.2(55)SE1.**
+* **The switch is connected to a Catalyst 9300 switch.**
+* **The Catalyst 9300 switch is running software version 16.12.1.**
+* **The issue is not happening on the Catalyst 9300 switch.**
+* **The issue is not happening on any other switches in the network",Design/Integration,annual,20233
+0,Cisco firewall,"The issue is that the user is unable to find documentation on how to get ISE to manage the LSC certificate between CUCM and Firepower VPN.
+-- The issue is that the syslog port needs to be opened on the firewall for all ISE nodes in a fully distributed deployment.
+-- Guillermo is having an issue with multicast audio not being received by IP phones when authentication is disabled on the switch port.
+-- The user is asking what method does ISE use to quarantine endpoint and what happens if the devices are not connected to a switch that supports dynamic ACL.
+-- The issue being faced is that the user is not sure which technology is responsible for quarantining a user who tries to access something dangerous. The user has integrated their firepower with ISE, and they have a rule that will quarantine users who try to access something dangerous. The quarantine option comes from ISE, but Firepower is the one that triggers the action. The user wants to know if Firepower or ISE is responsible for quarantining the user.
+-- The user is facing an issue with Firepower where the user and machine information is not being separated. They are asking for a date when this issue will be fixed, and if not, they would like to know if Cisco recommends Palo Alto or Fortinet as alternatives.
+-- The issue is that the user is unable to manually assign ANC policies to hosts in the Secure Network Analytics Host Report section. The error message is ""We encountered an error from one or more ISE clusters while retrieving ANC policy information for the hostPFCU_ISE - Session request failed. Please try again or contact technical support if the problem persists.""",Design/Integration,annual,20233
+0,Authentication,"The issue is that the user is looking for documentation or a configuration guide on how to integrate ISE and Imprivata for 2FA auth for SSLVPN.
+-- The issue is that ISE is not able to establish a connection to the RSA server, which is why there are no logs on the firewall along the path. This could be due to a number of reasons, such as misconfiguration of the ISE-RSA integration, DNS issues, or a firewall block.
+-- The issue being faced is that the user is trying to find a solution to integrate Cisco Anyconnect with Cisco ISE and O365, but they cannot find a solution. They have found a solution that uses Cisco DUO to integrate with O365 instead of ISE, but they want to confirm that the solution with Cisco ASA with anyconnect VPN can integrate with the picture below.
+-- The issue is that the company wants to integrate ISE with DUO for MFA for internal users, but they only have device administration (TACACS+) and VM license purchased. They want to know if it is possible to integrate ISE with Duo without any tier license since DUO and ISE communicate via radius.
+-- The user is requesting assistance in integrating ISE with DUO for 2FA.
+-- The issue is that ISE is not authenticating Zero clients via 802.1x, even though they have a valid certificate from SCEP.",Design/Integration,annual,20233
+0,Cisco dna,"- **The customer is having issues with their Cisco IOS XR 9000 router.**
+- **The router is not able to route traffic properly.**
+- **The customer has tried to reboot the router, but the issue persists.**
+- **The customer has also tried to upgrade the router's software, but the issue persists.**
+- **The customer is concerned that the router is defective.**
+- **Cisco engineers have been unable to replicate the issue in their lab.**
+- **Cisco engineers are currently working with the customer to resolve the issue.**
+- **",Design/Integration,annual,20233
+0,Design,"The Cisco ISE maximum concurrent sessions limits for Dedicated PSNs are inconsistent across different deployment environments, and the reasons for this are not clear.
+-- The issue being faced is that the user is confused about the number of active endpoints, total endpoints, total active sessions etc. per deployment and per PSN. The user is asking for clarification on what the correct value is for their deployment.
+-- The issue is that the user has allocated too much resources for their Cisco ISE VM. The user has allocated 4 CPUs, 64GB of RAM, and 2.4TB of storage, which is more than is necessary for an evaluation. The user should reduce the amount of resources allocated to their VM to save money and improve performance.",Design/Integration,annual,20233
+0,Others,"1. The Cisco IOS XE 17.3.1a release is affected by a bug that can cause devices to crash.
+2. The bug is caused by a race condition in the TCP stack.
+3. The crash can occur when a device receives a large number of TCP SYN packets.
+4. The crash can also occur when a device receives a TCP SYN packet with an invalid sequence number.
+5. The bug can be mitigated by disabling TCP SYN cookies.
+6. Disabling TCP SYN cookies can increase the risk of SYN flooding attacks.
+7. Cisco recommends that customers upgrade to a fixed",Implement,annual,20233
+1,Others,"* The Cisco IOS XE 17.3.x software release has a bug that causes the device to crash when BGP is configured with an IPv6 address.
+* The bug is caused by a race condition between the BGP daemon and the IPv6 kernel module.
+* The crash can occur when BGP is configured with an IPv6 address and the device receives a BGP update from a peer.
+* The crash can also occur when BGP is configured with an IPv6 address and the device receives a ICMPv6 packet from a peer.
+* The bug can be fixed by upgrading the device to Cisco IOS XE ",Implement,annual,20233
+0,Directory services,"- IKEv2 connection with Cisco ISE on ACI Fabric is not working
+    - IKEv2 is failing with error code 'INVALID_SPI'
+    - IKEv2 is failing with error code 'INVALID_KE_PAYLOAD'
+    - IKEv2 is failing with error code 'INVALID_ID_PAYLOAD'
+- ISE is not sending IKEv2 SA payload to ACI Fabric
+    - ISE is not sending IKEv2 SA payload due to missing 'gateway_id' attribute in ISE configuration
+    - ISE is not sending",Implement,annual,20233
+1,Directory services,"- The customer is having problems with their Cisco Catalyst 9300 series switches.
+- The switches are not properly passing traffic between VLANs.
+- The customer has tried to troubleshoot the issue by resetting the switches and changing the switch configurations, but the problem persists.
+- The customer is concerned that the problem is with the switches themselves and wants to get them replaced.
+- The Cisco engineer will need to gather more information about the problem before making a determination as to whether or not the switches are defective.
+- The engineer will need to know the exact model of the switches, the firmware version, and the network topology",Implement,annual,20233
+0,Cloud/OS,"* Cisco IOS XE Release 3.16.0s has a bug that causes OSPF to crash when a router is rebooted while OSPF is enabled.
+* The bug is caused by a race condition between the OSPF process and the kernel's network interface layer.
+* When a router is rebooted while OSPF is enabled, the OSPF process attempts to reinitialize the kernel's network interface layer.
+* This can cause the kernel's network interface layer to crash, which in turn causes OSPF to crash.
+* The bug can be avoided by disabling OSPF before rebooting the router.
+",Implement,annual,20233
+1,Cloud/OS,"The user wants to know how to get a certificate from ISE using EST on a Linux notebook.
+-- The issue being faced is that ISE 2.x does not support Azure, but ISE 3.0 and above do.
+-- The user is trying to get additional profiling data into ISE so things like macbooks don't show up as ""Free-BSD"".
+-- The issue is that Huawei Cloud Server is not supported for ISE deployment.
+-- The issue is that ISE is seeing M1 MacBook Pros as Apple-devices and then into the child policy of iphone, instead of being profiled correctly.
+-- The issue being faced is that the customer wants to deploy an ISE cluster between a bare metal and Azure VM, but they are not sure if this is possible. The Cisco engineer confirms that this is possible and provides a link to documentation on how to do this.
+-- The issue being faced is that the Captcha code does not show on Android and MAC OS devices.
+-- Clive is asking if there is a way to send CEF logs from ISE to MS Sentinel.
+-- The issue is that SNMP v3 is not working on ISE 3.1 patch 3, even though the same configuration works on ISE 3.0 patch 1.
+-- The user wants to ignore mobile phones like Android and Iphone from posture and is asking for the best way to perform this.",Implement,annual,20233
+2,Cloud/OS,"The issue being faced is that the user is not sure if they will still get a 90-day evaluation in AWS ISE regardless of the instance type to migrate.
+-- The issue is that the Cisco Catalyst 9800 Wireless Controller for Cloud (C9800-CL) on Amazon Web Services (AWS) requires the AAA server to be on-premise. This is not always possible or desirable, so users are looking for a way to use a cloud-based AAA server.
+-- The issue is that Apple iOS devices are not able to load the guest portal sometimes or take excessive time to redirect to authentication success page when it loads the guest portal.
+-- The issue is that the company wants to move Cisco ISE to AWS cloud in order to reduce the data center footprint, but there are some known limitations and security concerns with this approach.
+-- The issue is that after the session times out and the client attempts to reconnect, the user is taken straight to the 'successfully connected' page but the user is not able to use the guest network.
+-- The issue is that the Cisco ISE does not have a built-in backup engine, so users need to use other methods to back up their configuration data.
+-- The issue is that ISE is not able to differentiate between multiple Azure MDM tenants when using authorization rules. This is causing clients from the second tenant to either be falsely associated with the first tenant or not associated with any tenant at all, resulting in them being denied access to the network.
+-- The team is asking if ISE can be used to authenticate users who access servers and apply policies or profiles to them.",Implement,annual,20233
+3,Cloud/OS,"The user is asking if it is possible to add or assign an IP address to a second interface after deploying Cisco ISE in Azure Application variant.
+-- The guest portal is not bringing up the redirect page for authentication on Android devices when using ISE-2, but it works fine on ISE-1.
+-- The issue is that the logo is not displayed when the portal is accessed by a guest client, even though it is displayed correctly in the Cisco ISE Portal Builder.
+-- The user is having issues enabling two guest portals on ISE and having them hosted on different interfaces.
+-- The issue being faced is that ISE 3.2 is not yet available on the Azure marketplace, but it should be available in the next few weeks.
+-- The BYOD guest portal is not auto-redirected and after login in the gues portal, user doesn't have internet access.
+-- The issue is that Android 10 devices can no longer connect to a WPA2-Enterprise Wi-Fi network where the cert is not publicly signed, and the customer would like to use a Digicert instead of the internally signed cert from their Windows CA server.
+-- The issue is that the Cisco ISE appliance is attempting to communicate with IP addresses that are blocked by the internal firewalls. This is causing the ISE appliance to not be able to function properly.",Implement,annual,20233
+0,Integration,"* The Cisco ASR 9000 Series routers are experiencing a high CPU utilization issue.
+* The issue is caused by a bug in the Cisco IOS software.
+* The bug is present in Cisco IOS versions 12.4(25)S1 and earlier.
+* The issue can be fixed by upgrading to Cisco IOS version 12.4(25)S2 or later.
+* In the meantime, there are several workarounds that can be used to reduce CPU utilization.
+* One workaround is to disable the Cisco CEF feature.
+* Another workaround is to disable the Cisco Net",Implement,annual,20233
+1,Integration,"* The customer is having problems with their Cisco ASR 9000 router.
+* The router is not properly routing traffic.
+* The customer has tried to reset the router, but the problem persists.
+* The customer has also tried to upgrade the router's software, but the problem still exists.
+* The customer is concerned that the router is defective.
+* Cisco engineers are investigating the issue.
+* They have determined that the problem is caused by a software bug.
+* A fix for the bug is being developed.
+* The customer will be notified when the fix is available.",Implement,annual,20233
+0,Cisco firewall,"* The Cisco ASA 5505 is a firewall that is no longer supported by Cisco.
+* The ASA 5505 is not able to handle the traffic from the new web application.
+* The ASA 5505 is not able to keep up with the number of requests from the new web application.
+* The ASA 5505 is not able to filter the traffic from the new web application.
+* The ASA 5505 is not able to protect the network from the new web application.
+* The ASA 5505 is not able to provide the security",Implement,annual,20233
+0,Authentication,"The issue being faced is that the user is trying to authenticate users coming from Cisco ASA with certificate and DUO from ISE, but they are not sure how to do it.
+-- The issue is that the private key file is encrypted, which is causing Ansible to fail when trying to authenticate with ISE CLI.
+-- The issue is that the user is unable to login to the ISE web GUI due to a certificate error.
+-- The issue is that a local user with a password set cannot login to the GUI using TACACS, but a user with MFA enabled can.
+-- The issue is that the Duo MFA configuration for Cisco 9k switches managed by DNAC is not working. The configuration change to ISE did not prompt a Duo MFA login when testing CLI SSH access to some of the switches.
+-- 
+-- The issue is that the switch is not able to authenticate with the ISE server. This is evident from the debug logs, which show that the switch is repeatedly marking the ISE server as dead and then alive. This is likely due to a problem with the communication between the switch and the ISE server. There could be a number of reasons for this, such as a misconfiguration on the switch or the ISE server, or a network issue. To troubleshoot this issue, you will need to check the configuration on both the switch and the ISE server, and verify that there is no network issue.
+-- The issue is that ISE 3.1 is having problems with EAP-TLS authentication for certificates using TPM module on Windows 10.",Implement,annual,20233
+0,Cisco dna,"The customer is trying to migrate wireless AAA from DNA Spaces to ISE with a technical requirement to authenticate user leveraging an external Identity store via the ODBC connector, but they are having trouble validating a field (not username) to a server on the internal and/or external network.
+-- The issue is that the user is able to join the network but no redirect page pops up when they join. This is happening even though the IP learn is successful and L3 Auth starts. The ISE policies are setup correctly and this has been done on old airos wlc just fine. It is thought that there is something missing with the IOS based controllers.
+-- The issue is that the ISE 3.2 instance cannot connect to DNA Center because the certificates are not properly configured.
+-- The issue being faced is that there is a mismatch between the virtual network information in Cisco DNA Center and Cisco Identity Services Engine. This can cause problems with network management and security. To fix the issue, you can restart the migration process.
+-- The user is unable to log into the ISE device in the Devnet Cisco DNA Center Lab 3 Sandbox using the provided credentials.
+-- The issue is that the switches are not getting the latest SGT policies from ISE when they are changed.
+-- The issue is that the wireless clients are unable to authenticate with AAA (ISE) after the DNA Center upgrade.
+-- The issue being faced is that the user is not sure what the role of Cisco ISE is now that DNA Center can create SGTs and policies with contracts between SGTs. The user also wants to know if DNA Center is now capable of pushing SGT policies to network devices without ISE.",Implement,annual,20233
+0,Design,"The issue is that the ISE application is not running after it has been installed. The user has tried to start the application using the command ""application start ise"" and ""application start ise safe"", but neither of these commands have worked. The user has also tried to re-image the appliance, but this has also not been successful.",Implement,annual,20233
+0,Others,"* The Cisco 800 Series routers are experiencing a problem with the NAT table.
+* The NAT table is becoming full and causing packets to be dropped.
+* The problem is most likely caused by a bug in the Cisco IOS software.
+* The bug is tracked as CSCvo80557.
+* A fix for the bug is available in Cisco IOS Release 15.2(5)T.
+* Customers who are experiencing this problem should upgrade to Cisco IOS Release 15.2(5)T or later.
+* In the meantime, customers can mitigate the problem by increasing the",Upgrade,annual,20233
+1,Others,"- The customer is having problems with their Cisco IOS XR software.
+- The software is crashing and causing the router to reboot.
+- The customer has tried to upgrade the software, but the problem persists.
+- The customer has also tried to downgrade the software, but the problem still occurs.
+- The customer is running Cisco IOS XR version 6.3.2.
+- The customer is using a Cisco ASR 1000 router.
+- The customer has tried to contact Cisco support, but they have been unable to help.
+- The customer is hoping that you can help them resolve this",Upgrade,annual,20233
+0,Directory services,"The issue being faced is that there are a number of questions about the capabilities and features of ISE 3.2. Some of the questions include:
+- Does ISE 3.2 support RADSEC?
+- Does the limitation that you only can have one RADIUS server certificate per nod exist in ISE 3.2?
+- Are there plans for ISE to support beyond 50 PSNs in a distributed deployment cluster?
+- Will it be possible to get a graph of license usage?
+- Best way to backup just core ISE config information?
+- When can ISE 3.2 be a recommended or suggested version?
+- Can you share an example for the iPSK deployments for IoT devices?
+
+These are just a few of the questions that were asked during the briefing.
+-- The issue being faced in the text is that there is a lack of information about ISE 3.2 and its capabilities. There are a lot of questions about the new features and how to use them.
+-- The issue is that ISE 2.7 patch 7 does not support AES256 with AD, which is required after the AD CVE-2022-38023 patch goes into its enforcement phase in April 2023.
+-- The user is having trouble updating ISE PIC from 3 to 3.2 and is also having an issue with WMI connecting to AD.
+-- The issue is that the current ISE cluster is running on hardware and needs to be replaced by a virtual appliance. The cluster is also running version 2.6 and needs to be upgraded to version 3.1. The user wants to maintain the current IP addresses.
+-- The issue is that the ISE upgrade is stuck and the user is looking for help to resolve it.
+-- The issue is that the user wants to disable auto-update of AnyConnect on Cisco ISE so that some clients can run 4.9 and some can run 4.10 parallelly.",Upgrade,annual,20233
+0,Cloud/OS,"The issue is that after upgrading ISE from 3.1 to 3.2, the user is no longer able to get a credential scan using the same domain user account.
+-- The issue is that the Apple M2 Macbook Air 2022 is being postured as compliant even though file fault (apple disk encryption) is disabled. This is a mandatory assessment that should not be true for this client, but the posture module is setting it as succeeded.
+-- The issue being faced is that the user is not sure which version of RHEL to use for the VM Guest OS after upgrading Cisco ISE from 2.7 to 3.1.
+-- The issue is that the chrony daemon is not starting after an upgrade or service pack installation, and TAC is having to manually fix the problem by creating a new UID for chrony.
+-- The issue is that the ISE 2.7 upgrade bundle is not compatible with the RHEL 7 server that is currently being used.
+-- The issue is that ISE 2.4.0.357 patch 13 does not support disabling Azure MFA for Cisco ISE communication.",Upgrade,annual,20233
+0,Integration,"The issue is that FMCv 7.0+ requires ISE to support pxGrid 2.0, but ISE-PIC 2.6 patch 6 does not support pxGrid 2.0.
+-- The issue is that there is no single API that provides the full details of the Network Devices. To get the full details, you would need to create a script that executes the GET API for the network devices, captures each individual 'id' or 'name' value, then executes the GET by id/name on each one to capture the details.
+-- The PATCH method is not supported in ISE 3.1 and below, it is a feature enhancement in ISE 3.2",Upgrade,annual,20233
+0,Cisco firewall,"The issue is that the 9200 switch is unable to establish a peering session with ISE, and the error message indicates that the MD5 digest is invalid.
+-- The issue is that the java driver for ISO mapping in vKVM has been removed since version 4.1, and the HTML5 driver is not working properly. This makes it difficult to install ISE Application on SNS36xx appliances.",Upgrade,annual,20233
+0,Authentication,The customer is planning to enable FIPS mode on their ISE deployment and is looking for information on the potential issues that could arise.,Upgrade,annual,20233
+0,Cisco dna,The issue is that the ISE appliance is not reachable from the network switches at 03:40 every morning. This is causing the ISE appliance to generate High Load Average and High Authentication Latency alerts.,Upgrade,annual,20233
+0,Others,"* The customer is experiencing intermittent connectivity issues with their Cisco Catalyst 9300 series switches.
+* The issues are occurring on both wired and wireless clients.
+* The customer has tried resetting the switches, but the issues persist.
+* The customer has also tried updating the firmware on the switches, but the issues persist.
+* A Cisco TAC engineer has been assigned to the case and is currently investigating the issue.
+* The engineer has determined that the issue is caused by a software bug in the Cisco Catalyst 9300 series switches.
+* The engineer is working on a fix for the bug and will release",Licensing,annual,20233
+1,Others,"- The customer is having trouble with their Cisco Catalyst 9300 switch.
+- The switch is not responding to ping requests.
+- The switch is not able to connect to the network.
+- The customer has tried resetting the switch, but the problem persists.
+- The customer has contacted Cisco support, but they have been unable to resolve the issue.
+- The customer is concerned that the switch is defective.
+- The customer is requesting a replacement switch.
+- The customer is willing to return the defective switch.
+- The customer is hoping to receive a replacement switch as soon as possible.",Licensing,annual,20233
+0,Directory services,"The user is trying to configure ISE 3.1 Radius authentication so that AD users can use their linked AD account when connecting to the wireless AP and using the wireless service, but the admin account created by ISE is being used instead.
+-- The issue being faced is that the author is new to ISE and needs help planning the deployment of a Cisco ISE Cluster.
+-- The issue is that the customer is new to ISE and needs help planning and deploying a Cisco ISE cluster.
+-- The customer wants to use ISE for both AD and local authentication and authorization, and skip the Access Control Policy on FTD.
+-- The user wants to make switch authentication using groups and users in AD through the ISE device, but they don't know how.",Licensing,annual,20233
+0,Cloud/OS,"The issue is that the customer is confused about the ISE license requirements for a VM in Azure.
+-- The VM medium licenses are not working because they need to be converted to the VM common license.",Licensing,annual,20233
+0,Integration,"Marco wants to know what kind of licenses does ISE 3.x consume with PxGrid for the integration with Forescout.
+-- The customer is confused about the pxGrid license requirements, specifically whether or not they need to renew their Plus licenses in order to continue using pxGrid.",Licensing,annual,20233
+0,Cisco firewall,"The issue being faced is that ISE is generating alarms about Smart Licensing Authorization Renewal Failure, even though there is no actual failure and the authorization is successful.
+-- The customer wants to smart license their ISE box which is not connected to the internet, and they are not able to open the correct firewall ports to allow traffic through.",Licensing,annual,20233
+0,Cisco dna,"The issue being faced is that the person is not sure if they need to purchase ISE Advantage licenses in addition to the DNA Advantage licenses they have already purchased. They are concerned because the Cisco ISE 3.x licensing structure states that ISE Advantage licenses are required to use pxGrid and TrustSec.
+-- The user is trying to understand the relationship between ISE, DNA Center, and SDA, and whether or not DNA Center is required to implement Trustsec, SGT's, and Posture.
+-- The issue being faced is that the user wants to enable policy based enforcement on ISE, but they are not sure if their essential license supports this feature or if they need to upgrade to Advantage.",Licensing,annual,20233
+0,Design,"The customer is planning to upgrade Cisco ISE from 2.7 to 3.1 and they have some questions about the licenses.
+-- The issue is that the ISE deployment is showing a warning that there are fewer VM licenses installed than VM resources/VM nodes deployed. This is a cosmetic warning and will not affect the operation of ISE. In order to get rid of the warning, it will be required to do the conversions of licensing that were mentioned in the previous post.",Licensing,annual,20233
+0,Others,"1. Cisco 891 router is unable to ping Google.
+2. Traceroute to Google shows that the router is unable to reach the first hop.
+3. The router is configured with the correct default gateway and DNS server.
+4. The router is connected to the internet and has a valid IP address.
+5. Other devices on the network are able to ping Google.
+6. The issue is intermittent and occurs randomly.
+7. The router has been rebooted multiple times, but the issue persists.
+8. A support case has been opened with Cisco.
+9. Cisco is investigating the issue",Licensing,quarterly,20233
+0,Cloud/OS,The customer is looking for information about the cost of a VM license for ISE.,Licensing,quarterly,20233
+0,Integration,The issue being faced is that the user is unsure what type of licenses are required for ISE 3.x to integrate with Forescout.,Licensing,quarterly,20233
+0,Cisco dna,"The issue being faced is whether or not to purchase ISE Advantage licenses for Cisco SD-Access deployment. The person has already purchased DNA Advantage licenses, but is unsure if they also need to purchase ISE Advantage licenses. The person is looking for clarification based on others' experience.
+-- The user is confused about the role of DNA Center in SDA and whether it is necessary to implement Trustsec, SGT's and Posture.",Licensing,quarterly,20233
+0,Design,"The issue is that the customer wants to upgrade Cisco ISE from 2.7 to 3.1 and they are unsure about how to handle the licenses. They are specifically wondering if their converted Essential licenses will be expired on 31-Oct-2023 and if they need to purchase or renew or extend them again. They are also wondering if they need to purchase VM licenses as Common/Small/Medium/Large.
+-- The issue is that the ISE deployment is showing a warning that there are fewer VM licenses installed than VM resources/nodes deployed. This is a cosmetic warning and will not affect the operation of ISE. In order to get rid of the alarm, it will be required to do the conversions of licensing that were mentioned in the previous post.",Licensing,quarterly,20233
+0,Others,"1. The customer is having trouble with their Cisco IOS XR device.
+2. The device is not responding to pings.
+3. The device is not showing up in the network topology.
+4. The customer has tried to reboot the device, but the problem persists.
+5. The customer has contacted Cisco TAC for support, but they have not been able to resolve the issue.
+6. The customer is concerned that the device is going to fail and they will lose connectivity to their network.
+7. The customer is also concerned about the cost of replacing the device.
+8. The customer is hoping that",Upgrade,quarterly,20233
+1,Others,"* The customer is having problems with their Cisco IOS XR 9000 Series Router.
+* The router is not connecting to the internet.
+* The customer has tried to reset the router, but the problem persists.
+* The customer has also tried to contact Cisco Technical Support, but they have been unable to help.
+* The customer is concerned that they will not be able to use their router for their business.
+* The customer is requesting assistance from Cisco to resolve the issue.
+* Cisco has acknowledged the issue and is working on a fix.
+* The customer is expected to receive a fix in the",Upgrade,quarterly,20233
+0,Directory services,"
+ The issue being faced in the following text is that there are a number of questions about the new features in ISE 3.2, including how to use them, how to deploy them, and what the benefits are.
+-- The main issue being faced is that there is a lot of interest in the new features of ISE 3.2, but there is also some confusion about how to use them. There are also some questions about how to upgrade from 3.1 to 3.2.
+-- The issue is that ISE 2.x currently only supports RC4 with AD, but AD CVE-2022-38023 patch requires AES256.
+-- The user is having trouble updating ISE PIC from 3 to 3.2 and is also having issues with WMI connecting to AD.",Upgrade,quarterly,20233
+0,Cloud/OS,"The issue is that after upgrading ISE from 3.1 to 3.2, the user is no longer able to get a credential scan using a domain user account.
+-- The issue is that the Apple M2 Macbook Air 2022 is not being postured correctly. The file fault (apple disk encryption) is disabled, but the posture module is still setting it as succeeded. This is causing the client to be compliant when it should not be.",Upgrade,quarterly,20233
+0,Integration,"The issue is that FMCv 7.0+ requires ISE to support pxGrid 2.0, but ISE-PIC 2.6 patch 6 does not support pxGrid 2.0.",Upgrade,quarterly,20233
+0,Cisco firewall,"The issue is that the 9200 switch is unable to establish peering with ISE, even though the 3850 switch is able to.",Upgrade,quarterly,20233
+0,Others,"* The customer is having issues with their Cisco ASR 1000 series router.
+* The router is not routing traffic correctly.
+* The customer has tried to troubleshoot the issue, but they have been unsuccessful.
+* The Cisco engineer will need to remote into the customer's network to investigate the issue further.
+* The Cisco engineer will need to collect logs and run diagnostics to determine the root cause of the issue.
+* The Cisco engineer will need to provide the customer with a solution to the issue.
+* The Cisco engineer will need to follow up with the customer to ensure that the issue has been resolved",Implement,quarterly,20233
+1,Others,"1. The customer is experiencing a high number of TAC cases for the Cisco ASR 9000 Series Routers.
+2. The cases are related to a variety of issues, including:
+    * High CPU utilization
+    * Memory leaks
+    * Routing problems
+3. The customer has tried to resolve the issues on their own, but they have been unsuccessful.
+4. The customer has requested Cisco's assistance in resolving the issues.
+5. Cisco has opened a TAC case to investigate the issues.
+6. Cisco has identified a number of potential causes for the issues, including:
+    ",Implement,quarterly,20233
+0,Directory services,"1. The Cisco ASA 5505 is a firewall that is no longer supported by Cisco.
+2. The Cisco ASA 5505 is vulnerable to a number of security vulnerabilities.
+3. The Cisco ASA 5505 does not support the latest security features.
+4. The Cisco ASA 5505 is not a good choice for a new firewall deployment.
+5. There are a number of newer and more secure firewalls available from Cisco and other vendors.
+6. If you are still using a Cisco ASA 5505, you should consider upgrading to a newer firewall",Implement,quarterly,20233
+1,Directory services,"- The Cisco IOS XE 16.6.1 release has a known issue with OSPF where the OSPF process may not start after a reload.
+- This issue is caused by a bug in the OSPF process that prevents it from loading the OSPF configuration.
+- The affected platforms are the Cisco Catalyst 9800 series switches and the Cisco Catalyst 9300 series switches.
+- To work around this issue, you can downgrade to the Cisco IOS XE 16.5.1 release.
+- You can also wait for the Cisco IOS XE 16.6",Implement,quarterly,20233
+2,Directory services,"The issue is that the user is trying to connect to a specific AD Domain controller but is not sure how to do it.
+-- The issue being faced is that the author is not sure if the proposed topology will work fine.
+-- The issue is that the user wants to add a new policy to allow clients to authenticate against the external AD environment, but they are not sure where to add the policy.
+-- The issue is that the user wants to do dynamic VLAN assignment for Windows 10 devices managed by Intune (Hybrid Joined) but is facing issues with it.
+-- The issue being faced is that the user wants to restrict a specific set of users in ISE that conects to a Guest WiFi to access only one web portal.
+-- The user is trying to create a user for Cisco EPN manager with only show command access, but they are not sure how to apply the group through Cisco ISE 3.1. They also do not know what to input to the profile.
+-- The issue is that the user is not able to read any AD groups after connecting ISE 3.2 to AzureAD.
+-- The user wants to know if there is a way to restrict IP addresses to specific MAC addresses on a Cisco network.
+-- The issue being faced is that ISE can only fetch the groups under AD, and not the OUs.
+-- The issue is that the user is unable to connect ISE 3.2 with AzureAD. The user has tried to follow the guide but is still getting an error.",Implement,quarterly,20233
+0,Cloud/OS,"- The customer is having an issue with their Cisco IOS XR device.
+- The device is not able to establish a BGP session with a remote peer.
+- The customer has tried to troubleshoot the issue, but they have been unsuccessful.
+- The Cisco TAC engineer has been able to identify the issue.
+- The issue is caused by a bug in the Cisco IOS XR software.
+- The Cisco TAC engineer has created a bug report for the issue.
+- The Cisco TAC engineer is working with the Cisco development team to fix the bug.
+- The customer will be notified when the bug is fixed.
+-",Implement,quarterly,20233
+0,Integration,"- The Cisco 800 series router is not compatible with the new IOS version.
+- The new IOS version is causing the router to crash.
+- The router is losing its configuration when it crashes.
+- The router is not able to connect to the network.
+- The router is not able to route traffic.
+- The router is not able to perform NAT.
+- The router is not able to perform OSPF.
+- The router is not able to perform BGP.
+- The router is not able to perform EIGRP.",Implement,quarterly,20233
+0,Cisco firewall,"The issue is that the remote logging to a syslog server on udp 2100 on CIsco ISE doesn't work.
+-- The user is unable to perform a traceroute from a switch to an interface on an ISE server, even though pings to the interface are successful.
+-- The issue is that the posture does not work and in AnyConnect I see the message ""no policy server detected"".
+-- The DHCP probe is not able to add endpoints to ISE because it does not have access to the endpoint MAC address, which is required for endpoint discovery.
+-- The issue being faced is that the Anyconnect client is not trusting the ISE certificate for posturing upon connection due to it being a self signed certificate.
+-- The issue is that the ISE backup is failing when the repository is configured in Azure. The backup fails with the error message ""% Failure occurred during request"". The logs from the backup server session show that the ISE is closing the session with the message ""Closing connection: An existing connection was forcibly closed by the remote host."".",Implement,quarterly,20233
+0,Authentication,"The user is trying to authenticate users coming from Cisco ASA with certificate and DUO from ISE, but they are not sure if it is possible to implement this.
+-- The issue is that the private key file is encrypted and Ansible cannot authenticate with it.",Implement,quarterly,20233
+0,Cisco dna,"The customer is trying to authenticate users to ISE using an external Identity store via the ODBC connector, but they are unsuccessful. They are trying to use a jquery to validate a field (not username) to a server on the internal and/or external network, but they are not sure how to do this.
+-- The issue is that when a user joins the guest network on the 9800L WLC, no redirect page pops up to the ISE portal.
+-- The issue is that the user is unable to connect their ISE 3.2 instance to DNA Center. The error message ""Failed to download/process pxGrid endpoint certs from Cisco ISE"" indicates that there is a problem with the certificates.
+-- The issue is that the virtual network information between Cisco DNA Center and Cisco Identity Services Engine is out of sync. This can be fixed by restarting the migration.
+-- The issue is that the user is unable to log into the ISE device using the provided credentials.
+-- The issue is that the SGT policies are not being pushed to the NADs when they are changed in DNAC. This is because the PAN is not accessible from the NADs and the PSN is not configured to push the changes.
+-- The issue is that the wireless clients are unable to authenticate with AAA (ISE) after DNA Center was updated.",Implement,quarterly,20233
+0,Design,The user is unable to start the ISE application on their EVE-NG virtual machine.,Implement,quarterly,20233
+0,Others,"* The customer is having problems with their Cisco ASR 1001 router.
+* The router is not able to route traffic correctly.
+* The customer has tried to reset the router, but the problem persists.
+* The customer has contacted Cisco support, but they have been unable to resolve the issue.
+* The customer is concerned that the router is defective.
+* The customer wants to know if there is a way to fix the router or if they need to replace it.
+* The customer is also concerned about the cost of replacing the router.
+* The customer is hoping that Cisco will be able to",Design/Integration,quarterly,20233
+1,Others,"1. The customer is having problems with their Cisco IOS XR device.
+2. The device is not responding to ping requests.
+3. The device is not able to route traffic.
+4. The device is generating errors in the logs.
+5. The customer has tried to reboot the device, but the problem persists.
+6. The customer has contacted Cisco support, but they have not been able to resolve the issue.
+7. The customer is concerned that the device is not functioning properly and that it may be a security risk.
+8. The customer is requesting assistance from a Cisco engineer to resolve the",Design/Integration,quarterly,20233
+0,Directory services,"* The customer is having problems with their Cisco ASR 1001 router.
+* The router is not able to connect to the internet.
+* The customer has tried to troubleshoot the issue, but they have been unsuccessful.
+* The Cisco engineer will need to remote into the customer's network to investigate the issue further.
+* The Cisco engineer will need to check the router's configuration to see if there are any errors.
+* The Cisco engineer may need to update the router's firmware.
+* The Cisco engineer may need to replace the router if the issue cannot be resolved.
+* The Cisco",Design/Integration,quarterly,20233
+0,Cloud/OS,"The customer wants to deploy ISE on Azure and sync it with their SNS server on their DC, but they are not sure if this is possible.
+-- The customer is trying to implement two-factor authentication for VPN users using ISE and Azure Active Directory, but they are not sure how to do it.",Design/Integration,quarterly,20233
+0,Integration,"The author is trying to find out if there is a ""Cisco ISE Security Bundle"" that contains pre-built correlation rules, dashboards, and reports that can be used to monitor security events from the ISE in a SIEM system.
+-- The customer is confused about the differences between BYOD features offered by Meraki and Cisco ISE.
+-- The issue being faced is that the company wants to integrate ISE with SPLAN for guest access, but they are not sure if it is possible or if there is a custom solution available.
+-- The issue is that the user is not sure what resources can be adjusted after an ISE deployment based on vmware VM's.
+-- The issue is that when trying to push data (custom attributes for a device) from Medigate to ISE the custom attributes are not being received.
+-- The customer is trying to figure out how to integrate ISE with Checkpoint VPN, and they have a few specific questions:
+1. Can ISE be configured to do VPN access with Checkpoint in a similar way that you can with Cisco Firewalls and Anyconnect?
+2. Do you need pxGrid to be able to do ISE to Checkpoint VPN integration?
+3. Is it possible to do Profiling and/or Posture with Checkpoint VPN?
+-- The customer wants to deploy Cisco ISE 3.1 with Intune for Windows patch management, but they are facing challenges in achieving this.
+-- The issue is that the user is unable to reserve the ""Automate ISE with OpenAPIs Python and Ansible"" sandbox due to an API csrf issue.",Design/Integration,quarterly,20233
+0,Cisco firewall,"The user is trying to get ISE to manage the LSC certificate between CUCM and Firepower VPN.
+-- The issue being faced is that the syslog port needs to be opened on the firewall for all ISE nodes in a distributed deployment.",Design/Integration,quarterly,20233
+0,Authentication,"The issue is that the user is having trouble finding documentation or a configuration guide on how to integrate ISE and Imprivata for 2FA auth for SSLVPN.
+-- The issue is that ISE is not able to establish a connection to the RSA server, which is why there are no logs on the firewall along the path. This could be due to a number of factors, such as misconfiguration of the ISE-RSA integration, DNS issues, or a firewall rule blocking the traffic.",Design/Integration,quarterly,20233
+0,Cisco dna,"The user is trying to understand if ISE would be able to handle Cisco SD-Access and DNA managed network while still be to work with standalone and legacy network devices.
+-- The issue being faced is that TrustSec with ACI + ISE only supports single Tenant with single L3Out, but the customer is trying to implement TrustSec with DNAC + ISE + ACI with multiple tenants and multiple L3Outs.
+-- The user is trying to create a ACL to deny access for wired and wireless clients, but they are having trouble because DACL is not supported by any WLC as of today.
+-- ISE is not able to see DNAC as a client in the Pxgrid Services ; Client Management ; Clients page, even though ISE and DNAC are successfully connected.
+-- The integration of Cisco DNA center with ISE is failing due to a broken CA chain.
+-- The integration between DNAC and ISE has stopped working, and the error message is ""The ISE credentials provided are invalid"", even though the credentials work fine when used directly in the ISE web interface.
+-- The issue is that the WLC is not showing the SGTs, even though all the AAA/RADIUS/COA/etc config was pushed to the WLC from DNAC.",Design/Integration,quarterly,20233
