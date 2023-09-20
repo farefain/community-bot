@@ -1,16 +1,6 @@
 import streamlit as st
 import pandas as pd 
-from chains import (EMBEDDINGS, 
-                    # implement_qa_chain, 
-                    # upgrade_qa_chain, 
-                    # licensing_qa_chain, 
-                    # design_integration_qa_chain, 
-                    LLM,
-                    get_context,
-                    examples,
-                  
-                    metadata_field_info
-)
+
 # from langchain.chat_models import ChatVertexAI
 from langchain.chat_models.vertexai import ChatVertexAI
 import ptvsd
@@ -26,6 +16,8 @@ from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 #     MessagesPlaceholder
 
 # )
+from langchain.embeddings import VertexAIEmbeddings
+from langchain.llms import VertexAI
 
 from langchain.prompts import PromptTemplate
 from streamlit_chat import message
@@ -47,6 +39,10 @@ import random
 
 # with col1:
 
+EMBEDDINGS = VertexAIEmbeddings()
+
+LLM = VertexAI(model_name='text-bison@001', max_output_tokens='800', temperature=0)
+
 
 # Page title
 #   st.set_page_config(page_title='🦜🔗 :ear: Context AI Communities')
@@ -55,9 +51,16 @@ st.markdown("""---""")
 
 
 
-query_class = st.sidebar.selectbox('Classes', ['Upgrade', 'Licensing', 'Design_Integration', 'Implement'])
-db = Chroma(persist_directory=f'vector_databases/{query_class}_db', 
+query_class = st.sidebar.selectbox('Classes', ['Upgrade', 'Licensing', 'Design/Integration', 'Implement'])
+if query_class == 'Design/Integration':
+    query_label = 'Design_Integration'
+else:
+    query_label = query_class
+
+
+db = Chroma(persist_directory=f'vector_databases/{query_label}_db', 
                       embedding_function=EMBEDDINGS)
+
     
 document_product_tag = st.sidebar.selectbox('Tags', ['Others', 'Directory services', "Cloud/OS", 'Integration', 'Cisco firewall', 'Authentication', 'Cisco dna', 'Design'])
 st.sidebar.markdown("---")
@@ -92,20 +95,6 @@ with st.expander('click to see clusters'):
                                  )
                             )
                     )
-
-    if len(unique_clusters) >= 2:
-        top_fig.update_layout(shapes=[
-            dict(
-                type= 'line',
-                yref='paper',
-                xref='x',
-                x0=len(top_words_df[top_words_df['topic_id'] == 0]['word'].tolist())-0.5,
-                y0=0,
-                x1=len(top_words_df[top_words_df['topic_id'] == 0]['word'].tolist())-0.5,
-                y1=1,
-                line=dict(color='black', width=2)
-            )
-        ])
 
     # add labels and title 
     top_fig.update_layout(
@@ -155,7 +144,7 @@ with st.sidebar.expander('click to see cluster tag summary'):
         st.write(doc[1]['summary'])
         st.markdown("""---""")
 
-st.sidebar.subheader('Context')
+# st.sidebar.subheader('Context')
 
 
 # summary_df = pd.read_excel('dataset/cluster_summaries_aq.xlsx')
@@ -288,7 +277,7 @@ with textcontainer:
                                                return_documents=True)
                 
 
-            with st.sidebar.expander(f"Context"):
+            with st.sidebar.subheader(f"Context"):
 
                 
                 prev_conv_id = ''
